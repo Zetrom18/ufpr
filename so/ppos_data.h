@@ -7,6 +7,8 @@
 #ifndef __PPOS_DATA__
 #define __PPOS_DATA__
 
+#include <stdio.h>
+#include <stdlib.h>
 #include <ucontext.h>		// biblioteca POSIX de trocas de contexto
 #include "queue.h"		// biblioteca de filas genéricas
 
@@ -45,4 +47,3 @@ typedef struct
 } mqueue_t ;
 
 #endif
-
