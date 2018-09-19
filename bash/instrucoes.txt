@@ -1,0 +1,3 @@
+linhas que contem ; entre aspas
+produzir um arquivo com todos os codigos unicos da coluna 6
+usando for, criar arquivos que contem, separadamente
