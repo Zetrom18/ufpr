@@ -1,0 +1,59 @@
+
+*** V4 ***
+NAT: 0
+bios_debian: 0
+bogon: 0
+dns: 8213
+forward-fim: 29613
+forward-syn-piratas: 15322
+forward-vazamento: 29542
+input-externo-broadcast: 29539
+input-externo-fim: 29614
+input-externo-multicast: 471
+input-interno-broadcast: 8755
+input-interno-fim: 357
+input-syn-piratas: 1337
+input-vazamento: 9900
+mail-587: 10
+mail: 0
+passarela: 0
+porta-zero: 32
+regua-apc-snmp: 0
+rpfilter-externo-broadcast: 0
+rpfilter-externo-fim: 1891
+rpfilter-interno-broadcast: 116
+rpfilter-interno-fim: 694
+safado: 0
+saida-web-interno: 555
+ssh-fechadas: 17474
+ssh-limita: 27334
+ssh-roble: 2982
+ssh-sagres: 2551
+windows: 0
+wireless: 11352
+
+*** V6 ***
+V6-6to4: 1259
+V6-bogon: 165
+V6-dns: 215
+V6-echo-reply-p/-multicast: 0
+V6-fim: 1221
+V6-iana-reservado: 93
+V6-input: 117
+V6-limitassh: 0
+V6-mail-587: 26
+V6-mail: 0
+V6-multicast-local: 0
+V6-porta-zero: 0
+V6-regua-apc-snmp: 0
+V6-routing-header: 0
+V6-rpfilter: 0
+V6-safado: 0
+V6-saida-web-interno: 59
+V6-ssh: 7
+V6-syn-piratas: 606
+V6-vazamento: 14126
+V6-windows: 0
+
+LOG: /var/log/kernel/log
+
