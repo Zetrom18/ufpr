@@ -1,67 +1,0 @@
-_compatmiscwin32searchfix_getpass_utilscontribpyshutillogging	pyparsingplayergamemonster	characteririseasy_installeasy_install-3req_setreqreq_filereq_installreq_uninstallgitbazaarvcs	mercurial
-subversionuiglibchashesencodingoutdated
-filesystemdeprecationsetuptools_build
-dictconfigtarfile	_backport	sysconfigscriptsdistlibdatabaselocatorsmanifestmetadataansi	resourceswinterm
-initialiseansitowin32colorama_basedatrie_triefilterslint	sanitizer
-whitespaceoptionaltagsinject_meta_charsetalphabeticalattributeshtml5libtreewalkers	_ihatexmlsaxtreeadapterstreebuilders
-_tokenizer
-serializerhtml5parserlockfile_inputstreampidlockfilemkdirlockfilesqlitelockfilesymlinklockfilelinklockfilebarcounterhelpersspinnerprogressapicertshooksescsmjpcntxmbcssmauthjisfreqbig5freqchardet	escprober	euctwfreq	euckrfreq
-big5prober
-chardetect
-gb2312freq
-sjisprober
-utf8probercp949probereucjpprobereuckrprobereuctwprobergb2312proberhebrewproberlatin1probercharsetproberlangthaimodellanggreekmodellanghebrewmodelmbcharsetprobermbcsgroupprobersbcharsetprobersbcsgroupproberchardistributionlangcyrillicmodeluniversaldetectorcharsetgroupprobercodingstatemachinelangbulgarianmodellanghungarianmodelurlssl_retrytimeoutsocksntlmpool	appengine	pyopensslordered_dictssl_match_hostname_implementationfieldsurllib3filepostpoolmanager_collectionsconnectionpoolcookiesrequestsadapterssessions
-structuresdistro	__about___structuresrequirements
-specifiers_vendorretryingcaches
-file_cacheredis_cache_cmdcacheadapterwrappercachecontrol	serialize
-heuristicsfilewrapper	ipaddress
-controller	re-vendorlabelswebencodingsmklabelsx_user_definedordereddictpkg_resourceshashhelplistshowinstallcommands	uninstall
-completion
-operations	locations
-baseparser
-cmdoptions
-pep425tagsbasecommandservices	interfacerepositoriessublimesublime_pluginrestartprintenv	_get_tipspycompletion_django_manager_bodysetuppydevd_pydev_imps_pydev_inspect_pydev_execfile_pydev_uuid_old_pydev_sys_patch_pydev_xmlrpclib_pydev_pkgutil_old_pydev_SocketServer_pydev_saved_modules_pydev_BaseHTTPServer_pydev_SimpleXMLRPCServerrename_pep8generate_codenames_to_renamebuild_binaries_windowsrunfilesfix_nefix_mapfix_zipfixesfix_dictfix_execfix_longfix_nextfix_repr	fix_apply	fix_input	fix_paren	fix_print	fix_raise	fix_throw	fix_types
-fix_buffer
-fix_except
-fix_filter
-fix_future
-fix_idioms
-fix_import
-fix_intern
-fix_reduce
-fix_urllib
-fix_xrangefix_getcwdufix_has_keyfix_importsfix_nonzerofix_renamesfix_sys_excfix_unicodefix_callablefix_execfilefix_exitfuncfix_imports2fix_operatorfix_ws_commafix_funcattrsfix_itertoolsfix_metaclassfix_raw_inputfix_basestringfix_isinstancefix_xreadlinesfix_methodattrsfix_numliteralsfix_set_literalfix_tuple_paramsfix_standarderrorfix_itertools_importsconvpgenparsetokendrivergrammarpgen2tokenizeliteralsmainpygrampytreepatcomplib2to3refactor	btm_utils
-fixer_base
-fixer_utilbtm_matcherautopep8pep8dylddylibmacholib	framework_endianctypeswintypestests_pydevdtest_jyservertest_pyservertest_signaturetest_pydevconsoletest_simpleTippertest_get_referrerstest_jysimpleTippertest_pydev_ipython_011test_check_pydevconsole_pydev_bundle	pydev_log	pydev_umd
-_pydev_logpydev_monkey_pydev_getoptpydev_importspydev_overridepydev_localhostpydev_monkey_qt_pydev_completerpydev_import_hookpydev_versioncheck_pydev_calltip_utilpydev_console_utils_pydev_tipper_common_pydev_imports_tipperpydev_ipython_consolepydev_is_thread_alive_pydev_jy_imports_tipperpydev_ipython_console_011_pydev_filesystem_encodingqtpydev_ipython	inputhook
-qt_loadersinputhooktkinputhookwxinputhookgtkinputhookqt5inputhookglutinputhookgtk3inputhookqt4qt_for_kernelinputhookpygletmatplotlibtools_pydevd_bundle	pydevd_io
-pydevd_xmlpydevd_commpydevd_execpydevd_varspydevd_exec2pydevd_framepydevd_utilspydevd_reloadpydevd_consolepydevd_tracingpydevd_vm_typepydevd_resolverpydevd_constantspydevd_referrerspydevd_signaturepydevd_stacklesspydevd_trace_apipydevd_dont_tracepydevd_breakpointspydevd_frame_utilspydevd_save_localspydevd_import_classpydevd_plugin_utilspydevd_custom_framespydevd_tracepropertypydevd_cython_wrapperpydevd_trace_dispatchpydevd_dont_trace_filespydevd_command_line_handlingpydevd_process_net_commandpydevd_additional_thread_infopydevd_trace_dispatch_regularpydevd_kill_all_pydevd_threads pydevconsole_code_for_ironpython%pydevd_additional_thread_info_regularpydev_pysrcpydevd_pluginsdjango_debugjinja2_debug_pydev_runfilespydev_runfilespydev_runfiles_nosepydev_runfiles_pytest2pydev_runfiles_xml_rpcpydev_runfiles_coveragepydev_runfiles_parallelpydev_runfiles_unittestpydev_runfiles_parallel_clientpydevconsolesetup_cythonpydev_coverage_pydevd_frame_evalpydevd_frame_tracingpydevd_frame_eval_mainpydevd_modify_bytecode pydevd_frame_eval_cython_wrapperinterpreterInfositecustomizetests_pydevd_pythontest_debugger_performance_1_performance_2_performance_3viewsadminmy_appmanagewsgimy_django_proj_17settings_debugger_case1_debugger_case2_debugger_case3_debugger_case4_debugger_case7_debugger_case10_debugger_case13_debugger_case14_debugger_case15_debugger_case16_debugger_case17_debugger_case18_debugger_case19_debugger_case56_debugger_case89test_save_locals_debugger_case17adebugger_unittestperformance_checktest_pydev_monkey_debugger_case_remote_debugger_case_m_switch_debugger_case_qthread1_debugger_case_qthread2_debugger_case_qthread3_debugger_case_qthread4_debugger_case_remote_1_debugger_case_remote_2_debugger_case15_execfile_debugger_case_m_switch_2test_process_command_line_bytecode_overflow_exampletest_bytecode_modificationtest_additional_thread_info_bytecode_many_names_example!_debugger_case_set_next_statementpydevd_file_utilsgui-qtgui-tkgui-wxgui-gtktests_pydevd_mainloopgui-glutgui-gtk3
-gui-pygletnested2deep_nest_testnested3pycompletionserver
-nested_dirsimple4_testsimple_testsimple2_testsimple3_testsimpleClass_testsimpleModule_testtest_pydevdiotest_runfilestest_pydevd_propertypydev_run_in_consolelldb_preparegdb_threads_settracelldb_threads_settrace_checkgdi32ntdllpsapipip3genshidombaseetree
-etree_lxmlrequestresponse
-connectionpackagesmarkers	packagingappdirsindexwheelcheckfreezepipdownload
-exceptionsstatus_codesbuildtest_pydevd_reloadtestsurlsnon_test_filecompat	plaintext	math2htmltex2unicharunichar2texlatex2mathmlroman
-urischemessmartquotescode_analyzererror_reportingpunctuation_charsrolesbodystatesimagestables
-directivesadmonitionsrsttableparserparserspepdoctree
-standalonereadersxetexnullodf_odtlatex2epygmentsformatters5_htmlpep_html	html4css1manpagewriters	pseudoxmldocutils_xmlafnodescacsdadeeneoesfifrheglitjaltnlplrusksvpt_brzh_cnzh_tw	languagespepsparts
-transforms	universal
-components
-references
-writer_auxfrontmatterdocutilsexamplesfrontendstatemachineutilsixexcutilshtmldebugconfigparserversion__main___versionpathiocoremodelsformsdjangomathcollections	constantsuser32dbghelpdefinespeb_tebshell32shlwapikernel32wtsapi32advapi32context_i386context_amd64sqlplugins	do_symfix
-do_example
-do_exchaindo_exploitablecrasheventmoduledisasmsystemthreadtextiowindowprocess	winappdbgregistry
-breakpointinteractiveattach_pydevdattach_script_always_live_program_test_attach_to_processadd_code_to_python_process_test_attach_to_process_linuxpydevd_concurrency_analyserpydevd_thread_wrapperspydevd_concurrency_loggerpydev_app_engine_debug_startupcliguilogdoctestepytextjavadocmarkup
-pyval_reprrestructuredtextapidoclatexxlink	docwriterdotgraphhtml_css	html_helpcheckerhtml_colorizeepydoc
-docbuilder	docparserdocintrospecterdocstringparserstringinspectpockets	iteratorscommonteamcitymessages
-unittestpynose_reportflake8_pluginpytest_plugincontext_managersflake8_v2_pluginflake8_v3_pluginpycharm_2_3casesuitefailurenose_helperselectorraise_compatloaderutrunner	docrunner
-_bdd_utils	_jb_utils
-nose_utils
-noserunner
-tcmessages
-tcunittestattestrunnerpytestrunnerrunpy_compatbehave_runnerdjango_managepycharm_commandspycharm_test_jb_tox_runnerappcfg_fetcherlettuce_runnerpytest_teamcity_jb_runner_tools_jb_create_folder_jb_pytest_runnerbuildout_engulferpycharm_run_utilsdjango_test_managedjango_test_runner_jb_find_best_place_jb_nosetest_runner_jb_unittest_runnerdjango_manage_shellpycharm_setup_runnerpycharm_load_entry_point_jb_manage_tasks_provider_jb_django_project_creator_parser	_argparse	_optparse_xmldjango_manage_commands_providerlexcppyaccygenctokensplylexerrpctrackertrackinghookjsonbinarycompactprotocol	multiplexserverthriftframedmemory_sslbufferedsocket	transport	sslsockettornadothriftpyprof_ioprofiler	prof_util
-load_pstatrun_profiler_prof_importsyappi_profilervmprof_profiler	mypy_testpytype_testmimeenvdatafilespluginpythonreportcmdlinecontrolresultssummarycoverageannotatebackwardbytecodeexecfilepytracertemplite	collector	multiproc	xmlreport
-phystokenspickle2jsonbackunittestplugin_support
-coveragepysyspathrst2smthsphinx_runnernapoleon	docstringsphinxcontrib
-generator3pycodestylecoverage_runnerrun_coverageextra_syspathoserrortoolsnose
-multiarraynumpyrequerydbmailformsetspytestsys_csveventsasynciocopyterrainlettucebehavepicklestructalembicdecimalpathlibsqlite3StringIObuiltinsdatetime	cStringIO	functools	itertools
-subprocess__builtin__multiprocessingmanagerspackaging_tooltest_generatorpy2ipnb_converterdocstring_formattercheck_all_test_suiteconda_packaging_toolpycharm_generator_utils	clr_toolsutil_methodspyparsing_py3module_redeclarator                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
