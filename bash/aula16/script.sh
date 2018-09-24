@@ -1,6 +1,6 @@
 #!/bin/bash
 
-scriptDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+scriptDir="$(dirname "${BASH_SOURCE[0]}")"
 
 #xzcat $scriptDir/log-firewall.xz | head -n 1 | sed 's/: /|/g'
 
