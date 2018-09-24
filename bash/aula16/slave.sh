@@ -8,7 +8,5 @@ count=$(xzcat $scriptDir/log-firewall.xz | grep -c $error)
 if [ $count -ge 20000 ]
 then
   # todo - create real mail
-  echo "menos" | mail -s "Test" lrs13@inf.ufpr.br
+  echo "Error $error exceeded excpected ammount!\nTotal count: $count" | mail -s "Excessive error warning!" lrs13@inf.ufpr.br
 fi
-
-echo "$error: $count"
