@@ -10,8 +10,6 @@ Graph read_file(){
 
 	fscanf(stdin, "%d %d %d", &n, &m, &c);
 
-	printf("Linhas: %d\nColunas: %d\nColors: %d\n", n, m, c);
-
 	matrix = (int *)malloc(sizeof(int)*n*m);
 	assert(matrix);
 
@@ -22,13 +20,6 @@ Graph read_file(){
 	}
 
 	assert(matrix[n*m-1]);
-
-//	for(i=0; i<n; i++){
-//		for(j=0; j<m; j++){
-//			printf("%d ", matrix[i*n+j]);
-//		}
-//		puts("");
-//	}
 
 	g = create_graph(n*m);
 
@@ -61,9 +52,11 @@ Graph read_file(){
 
 	connect_game(g);
 
-	assert(test_matrix_size(g)==n*m);
+	// assert(test_matrix_size(g)==n*m);
 
-//	print_graph(g);
+	if(DEBUG){
+		// print_graph(g);
+	}
 
 	return g;
 }
@@ -77,13 +70,16 @@ void connect_game(Graph g){
 			merge_islands(g, g->vertex_list[i], g->vertex_list[i]->nbh[j]);
 			j=can_connect(g->vertex_list[i]);
 		}
+		printf("%d\n", test_matrix_size(g));
 	}
-
-	print_graph(g);
 }
 
 int can_connect(Vertex v){
 	int i;
+
+	if(v==NULL){
+		return -1;
+	}
 
 	for(i=0; i<v->n; i++){
 		if(((Island)v->content)->color==((Island)v->nbh[i]->content)->color){
@@ -129,13 +125,13 @@ void print_graph(Graph g){
 }
 
 int test_matrix_size(Graph g){
-	int i, sum=0;
+	int i, soma=0;
 
 	for(i=0; i<g->n; i++){
-		sum += ((Island)g->vertex_list[i]->content)->size;
+		soma = soma+((Island)g->vertex_list[i]->content)->size;
 	}
 
-	return sum;
+	return soma;
 }
 
 Graph change_color(Graph g, int c){
@@ -157,9 +153,7 @@ bool game_over(Graph g){
 	return false;
 }
 
-
-
-
-
-
-
+void floodit_main(){
+	if(DEBUG){
+	}
+}
