@@ -1,0 +1,38 @@
+v 3
+file . "tb_contador.vhd" "20130819164742.000" "20140320145300.319":
+  entity tb_contador at 9( 406) + 0 on 338;
+  architecture tb of tb_contador at 14( 469) + 0 on 339;
+  configuration cfg_tb at 135( 3563) + 0 on 340;
+file . "aux.vhd" "20130819143410.000" "20140320145300.116":
+  entity inv at 17( 743) + 14 on 310;
+  architecture comport of inv at 25( 878) + 0 on 311;
+  entity and2 at 36( 1214) + 0 on 312;
+  architecture comport of and2 at 44( 1385) + 0 on 313;
+  entity and3 at 54( 1743) + 0 on 314;
+  architecture comport of and3 at 62( 1918) + 0 on 315;
+  entity or2 at 74( 2283) + 0 on 316;
+  architecture comport of or2 at 82( 2451) + 0 on 317;
+  entity or3 at 91( 2805) + 0 on 318;
+  architecture comport of or3 at 99( 2977) + 0 on 319;
+  entity xor2 at 111( 3340) + 0 on 320;
+  architecture comport of xor2 at 119( 3511) + 0 on 321;
+  entity xor3 at 128( 3868) + 0 on 322;
+  architecture comport of xor3 at 136( 4043) + 0 on 323;
+  entity mux2 at 147( 4398) + 0 on 324;
+  architecture estrut of mux2 at 155( 4557) + 0 on 325;
+  entity ffd at 183( 5425) + 0 on 326;
+  architecture funcional of ffd at 192( 5580) + 0 on 327;
+  entity fft at 217( 6167) + 0 on 328;
+  architecture funcional of fft at 226( 6322) + 0 on 329;
+file . "packageWires.vhd" "20130819165342.000" "20140320145300.047":
+  package p_wires at 9( 444) + 0 on 308 body;
+  package body p_wires at 50( 2128) + 0 on 309;
+file . "contador.vhd" "20140320175252.000" "20140320145300.217":
+  entity contassincrono4 at 9( 415) + 0 on 330;
+  architecture estrutural of contassincrono4 at 16( 552) + 0 on 331;
+  entity contsincrono4 at 51( 1643) + 0 on 332;
+  architecture estrutural of contsincrono4 at 58( 1776) + 0 on 333;
+  entity contanel4 at 97( 2869) + 0 on 334;
+  architecture estrutural of contanel4 at 104( 2994) + 0 on 335;
+  entity regdesloc4 at 132( 3833) + 0 on 336;
+  architecture estrutural of regdesloc4 at 140( 4006) + 0 on 337;

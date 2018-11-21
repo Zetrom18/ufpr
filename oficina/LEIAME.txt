@@ -1,0 +1,6 @@
+Nome: Lucas Rosa da Silva
+GRR20133027
+email: lrs13@inf.ufpr.br
+Obs: mapas testes estão nos arquivos: mapa1.txt mapa2.txt e mapa3.txt
+O comando "make" compila o programa inteiro, enquanto o comando "./trab" executa
+o programa está escrito de forma a receber como entrada o mapa com a formação expecificada, tendo primeiro as dimenções: (numero de colunas, numero de linhas e profundidade respectivamente)

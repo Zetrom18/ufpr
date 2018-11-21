@@ -1,0 +1,10 @@
+graph result {
+    p1
+    c1 -- p2 [value=1]
+    c2 -- p3 [value=2]
+    c2 -- p4 [value=1]
+    c3 -- p4 [value=2]
+    c3 -- p5 [value=1]
+    c4 -- p5 [value=1]
+    c5
+}

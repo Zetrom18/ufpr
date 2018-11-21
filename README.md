@@ -1,2 +1,0 @@
-# ufpr
-Sistemas Operacionais
