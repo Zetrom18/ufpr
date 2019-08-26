@@ -189,8 +189,8 @@ void prnSistLinear (SistLinear_t *SL)
   for(int i=0; i < n; ++i) {
     printf("\n\t");
     for(int j=0; j < n; ++j)
-      printf ("%10.5g", SL->A[i*n+j]);
-    printf ("   |   %.8g", SL->b[i]);
+      printf ("%10.5lg", SL->A[i*n+j]);
+    printf ("   |   %.8lg", SL->b[i]);
   }
   printf("\n\n");
 }
