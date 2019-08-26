@@ -11,7 +11,7 @@
   \param SL Ponteiro para o sistema linear
   \param x Solução do sistema linear
 */
-double normaL2Residuo(SistLinear_t *SL, real_t *x)
+real_t normaL2Residuo(SistLinear_t *SL, real_t *x)
 {
 
 }
@@ -173,10 +173,10 @@ SistLinear_t *lerSistLinear ()
   
   for(int i=0; i < n; ++i)
     for(int j=0; j < n; ++j)
-      scanf ("%lg", &SL->A[i*n+j]);
+      scanf ("%g", &SL->A[i*n+j]);
 
   for(int i=0; i < n; ++i)
-    scanf ("%lg", &SL->b[i]);
+    scanf ("%g", &SL->b[i]);
   
   return SL;
 }
@@ -189,8 +189,8 @@ void prnSistLinear (SistLinear_t *SL)
   for(int i=0; i < n; ++i) {
     printf("\n\t");
     for(int j=0; j < n; ++j)
-      printf ("%10.5lg", SL->A[i*n+j]);
-    printf ("   |   %.8lg", SL->b[i]);
+      printf ("%10.5g", SL->A[i*n+j]);
+    printf ("   |   %.8g", SL->b[i]);
   }
   printf("\n\n");
 }
