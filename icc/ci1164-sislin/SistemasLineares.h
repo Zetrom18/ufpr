@@ -2,18 +2,18 @@
 #define __SISLINEAR_H__
 
 // Parâmetros para teste de convergência
-#define MAXIT 100       // Número máximo de iterações antes de abortar os métodos iterativos
+#define MAXIT 100
 #define EPS 1.0e-4
 
 #define COEF_MAX 32.0
 
-typedef float real_t;   // Tipo de dados que pode ser alterado em tempo de compilação para float ou double
+typedef float real_t;
 
 typedef struct {
-  real_t *A;            // Coeficientes (acessar posição [i][j] com [i*n+j])
-  real_t *b;            // Termos independentes
-  unsigned int n;       // Tamanho do SL
-} SistLinear_t;         // Estrutura para definição/armazenamento dos coeficientes, termos independentes e solução do Sistema Linear
+  real_t *A; // coeficientes
+  real_t *b; // termos independentes
+  unsigned int n; // tamanho do SL
+} SistLinear_t;
 
 typedef enum {
     comSolucao = 0,
@@ -22,7 +22,7 @@ typedef enum {
     eqCombLinear,
     hilbert,
     diagDominante,
-} tipoSistLinear_t;     // Lista para indicar o tipo de SL a ser gerado pela função inicializaSistLinear()
+} tipoSistLinear_t;
 
 // Alocaçao e desalocação de memória
 SistLinear_t* alocaSistLinear (unsigned int n);

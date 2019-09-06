@@ -10,10 +10,7 @@ int main ()
     // inicializa gerador de nr aleatoreos
     srand(20192);
     
-    SistLinear_t *SL;
+  SistLinear_t *SL;
 
-    // SL = lerSistLinear();
-
-    prnSistLinear(lerSistLinear());
 }
 

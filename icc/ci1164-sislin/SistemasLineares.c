@@ -187,10 +187,10 @@ void prnSistLinear (SistLinear_t *SL)
   int n=SL->n;
 
   for(int i=0; i < n; ++i) {
-    printf("\n\t");
+    printf("\n");
     for(int j=0; j < n; ++j)
-      printf ("%10.5lg", SL->A[i*n+j]);
-    printf ("   |   %.8lg", SL->b[i]);
+      printf ("%10g", SL->A[i*n+j]);
+    printf ("   |   %g", SL->b[i]);
   }
   printf("\n\n");
 }
@@ -201,7 +201,7 @@ void prnVetor (real_t *v, unsigned int n)
 
   printf ("\n");
   for(i=0; i < n; ++i)
-      printf ("%10.10lg ", v[i]);
+      printf ("%10g ", v[i]);
   printf ("\n\n");
 
 }
